@@ -433,7 +433,7 @@ async def calibration_curve(
     from sklearn.calibration import calibration_curve as sk_cal
     predictor = _get_predictor()
     if predictor.task_type != "classification":
-        raise HTTPException(status_code=400, detail="La calibration est disponible uniquement en classification.")
+        raise HTTPException(status_code=400, detail="Calibration is only available for classification.")
     try:
         df = _read_csv(file)
         y = df[target_col].copy()
