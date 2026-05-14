@@ -1,0 +1,18 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+mlflow:
+  experiment_name: ml_experiment
+  tracking_uri: mlruns
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+api:
+  host: 0.0.0.0
+  port: 8000
+
+app:
+  api_url: http://localhost:8000
