@@ -2,7 +2,7 @@
 
 A supervised ML pipeline that works on any CSV dataset. It auto-detects whether the task is classification or regression, trains several models in parallel, tracks everything with MLflow, and exposes a Streamlit dashboard + a FastAPI.
 
-![CI](https://github.com/adammed31/projet_ML/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/adammed31/ml-pipeline/actions/workflows/ci.yml/badge.svg)
 
 **Stack:** Python · Scikit-learn · XGBoost · LightGBM · MLflow · FastAPI · Streamlit · Docker
 
