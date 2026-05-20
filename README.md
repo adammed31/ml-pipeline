@@ -11,8 +11,8 @@ A supervised ML pipeline that works on any CSV dataset. It auto-detects whether 
 Requires [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/).
 
 ```bash
-git clone https://github.com/adammed31/projet_ML.git
-cd projet_ML
+git clone https://github.com/adammed31/ml-pipeline.git
+cd ml-pipeline
 docker-compose up --build
 ```
 
